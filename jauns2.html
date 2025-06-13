@@ -8,6 +8,10 @@
 	<script src="jscript.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+	
 </head>
 <body>
 	<header> 
@@ -19,9 +23,11 @@
 	<div class="box">
 		
 		<div class="item">
-			<h3>Portfolio</h3>
-			<h2>Programma, kas aprēķina sistēmu pēc Gausa metodes</h2>
-			<a href="MSN1.java" download="MSN1.java">Download File</a>
+			<h2>Portfolio</h2>
+			<h3>Programma, kas aprēķina sistēmu pēc Gausa metodes</h3>
+			<form method="get" action="MSN1.java">
+				<button type="submit">Faila lejupielāde</button>
+			</form>
 		</div>
 			
 		<div class="item">
@@ -82,7 +88,7 @@
 		
 	</div>
 	<footer>
-	<p>Copyright &copy <span id="year"></span> Kristers Uzuliņš.</p>
+	<p>Copyright &copy; <span id="year"></span> Kristers Uzuliņš.</p>
 	</footer>
 	<script>
     document.getElementById('year').textContent = new Date().getFullYear();
