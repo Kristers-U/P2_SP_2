@@ -1,12 +1,12 @@
 function initializeTheme() {
     let theme = localStorage.getItem("theme");
-    
+    //default pref
     if (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches) {
         theme = "dark";
     } else {
         theme = theme || "light";
     }
-
+	//toggle
     document.body.classList.toggle("dark-mode", theme === "dark");
     return theme;
 }
