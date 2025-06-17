@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
             const newTheme = currentTheme === "dark" ? "light" : "dark";
             
             //update theme
-            document.body.classList.toggle("dark-mode");
             localStorage.setItem("theme", newTheme);
         });
     });
