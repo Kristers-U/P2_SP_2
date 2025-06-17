@@ -82,7 +82,11 @@ body{
 	font-weight: 400;
 	font-style: normal;
 }
-
+img{
+	background-color: #FFFFFF;
+	border: 5px solid #000000;
+	border-radius: 50%;
+}
 .dark-mode {
     background-color: #2B2B2B;
     color: #fff;
@@ -101,4 +105,3 @@ body{
 .dark-mode button {
 	background-color: #FF6B01;
 }
-
