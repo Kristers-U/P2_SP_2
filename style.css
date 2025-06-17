@@ -34,6 +34,7 @@ h2{
 }
 h3{
 	font-size: 32px;
+	color: #000;
 }
 p{
 	font-size: 24px;
@@ -86,6 +87,9 @@ img{
 	background-color: #FFFFFF;
 	border: 5px solid #000000;
 	border-radius: 50%;
+}
+.dark-mode h3{
+	color: #fff;
 }
 .dark-mode {
     background-color: #2B2B2B;
