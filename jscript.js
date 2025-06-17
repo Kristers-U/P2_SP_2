@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
     //button text
     themeButtons.forEach(button => {
         button.textContent = currentTheme === "dark" ? 
-            "Switch to Light Mode" : 
-            "Switch to Dark Mode";
+            "Pārslēgt uz gaišo režīmu" : 
+            "Pārslēgt uz tumšo režīmu";
     });
 
     themeButtons.forEach(button => {
